@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+body{
+    background-color: rgb(28, 132, 146);
+}
+#heading {
+    position: relative;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    color: rgb(40, 99, 138);
+    font-size: 50px;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px rgb(0, 255, 128),
+        0 0 92px #0fa,
+        0 0 102px rgb(0, 255, 234),
+        0 0 151px #0fa;
+    
+}
+#calculator{
+    height: 520px;
+    width: 320px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+    top: 20px;
+    margin:0 auto;
+    box-shadow: 13px -11px #9ac1cf;
+    margin-top: 60px;
+    
+}
+#result{
+    height:120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    max-width:0 20px;
+    padding-top: 20px;
+    font-style: 15px;
+    color:#919191
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#keyboard{
+    height: 400px;
+
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float:left;
+    border-radius:10px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.empty{
+    background: #fff;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+    background-color:#20b2aa;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: cadetblue;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(50, 209, 135);
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(201, 113, 42);
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(154, 46, 158);
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(160, 95, 114);
+}
+#history-value{
+    text-align: right;
+}
+#output-value{
+    text-align: right;
+}
+.bottom-buttons {
+    display: flex;
+    margin-left: 6px;
+  }
+  
